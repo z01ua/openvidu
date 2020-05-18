@@ -5,4 +5,4 @@ npm install
 npm start
 ```
 
-[open url]: http://localhost:3000/
+[open url](http://localhost:3000/)
