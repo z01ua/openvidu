@@ -1,0 +1,18 @@
+{
+  "name": "openvidu-library-react",
+  "version": "0.0.0",
+  "dependencies": {
+    "axios": "0.19.2",
+    "openvidu-react": "2.14.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-scripts": "3.4.0"
+  },
+  "scripts": {
+    "platform": "docker run -p 4443:4443 --rm -e OPENVIDU_SECRET=MY_SECRET openvidu/openvidu-server-kms:2.14.0",
+    "start": "npm run platform & react-scripts start ",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
